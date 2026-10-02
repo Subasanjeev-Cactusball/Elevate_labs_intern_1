@@ -1,140 +1,160 @@
-\# Data Cleaning and Preprocessing
+# Data Analytics Internship Tasks
 
+## Overview
 
+This repository contains my Data Analytics internship tasks, completed using Python, Pandas, Jupyter Notebook, and Microsoft Power BI.
 
-\## Project Overview
+The projects demonstrate practical experience in data cleaning, preprocessing, visualization, dashboard development, and data storytelling.
 
+---
 
+# Task 1 — Data Cleaning and Preprocessing
 
-This project focuses on cleaning and preprocessing a customer dataset using Python and Pandas.
+## Objective
 
+The objective of this task was to clean and preprocess a raw customer dataset containing common data-quality issues such as missing values, duplicate records, inconsistent text formatting, and data-type issues.
 
+## Tools & Technologies
 
-\## Dataset
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
 
+## Dataset
 
+The project uses a customer dataset containing information such as:
 
-The original dataset contains customer information including:
+- Customer ID
+- Customer Name
+- Customer Age
+- Gender
+- Customer Segment
+- Customer City
+- Customer State
+- Customer Country
+- Region
+- Postal Code
+- Customer Acquisition Cost
 
+## Data Cleaning Steps
 
+The following steps were performed:
 
-\- Customer ID
+1. Loaded the raw dataset using Pandas.
+2. Inspected the dataset structure and columns.
+3. Checked for missing values.
+4. Handled missing values.
+5. Identified and removed duplicate records.
+6. Checked and corrected data types.
+7. Removed unnecessary leading and trailing spaces.
+8. Standardized categorical/text values.
+9. Validated customer age values.
+10. Checked customer acquisition cost values.
+11. Verified customer ID uniqueness.
+12. Performed final data-quality validation.
+13. Exported the cleaned dataset as a CSV file.
 
-\- Customer Name
-
-\- Customer Age
-
-\- Gender
-
-\- Customer Segment
-
-\- Customer City
-
-\- Customer State
-
-\- Customer Country
-
-\- Region
-
-\- Postal Code
-
-\- Customer Acquisition Cost
-
-
-
-\## Data Cleaning Steps
-
-
-
-The following preprocessing operations were performed:
-
-
-
-1\. Loaded the dataset using Pandas.
-
-2\. Inspected the dataset structure.
-
-3\. Checked for missing values.
-
-4\. Handled missing values.
-
-5\. Checked for duplicate records.
-
-6\. Removed duplicate records where required.
-
-7\. Checked data types.
-
-8\. Converted columns to appropriate data types.
-
-9\. Removed leading and trailing spaces from text columns.
-
-10\. Checked categorical values.
-
-11\. Validated customer age values.
-
-12\. Checked customer acquisition cost.
-
-13\. Verified customer ID uniqueness.
-
-14\. Performed final dataset validation.
-
-15\. Exported the cleaned dataset as a CSV file.
-
-
-
-\## Final Dataset
-
-
+## Final Dataset
 
 The cleaned dataset contains:
 
+- **25,000 records**
+- **11 columns**
+- **0 missing values**
+- **0 duplicate records**
 
-
-\- \*\*25,000 records\*\*
-
-\- \*\*11 columns\*\*
-
-\- \*\*0 missing values\*\*
-
-\- \*\*0 duplicate records\*\*
-
-
-
-\## Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Jupyter Notebook
-
-
-
-\## Files
-
-
+## Task 1 Files
 
 | File | Description |
-
 |---|---|
+| `Task_1_Data_Cleaning_Preprocessing.ipynb` | Complete Python/Jupyter Notebook |
+| `cleaned_customer_dataset.csv` | Final cleaned dataset |
 
-| `Task\_1\_Data\_Cleaning\_Preprocessing.ipynb` | Complete data cleaning and preprocessing notebook |
+---
 
-| `cleaned\_customer\_dataset.csv` | Final cleaned dataset |
+# Task 2 — Data Visualization and Storytelling
 
-| `README.md` | Project documentation |
+## Objective
 
+The objective of this task was to create meaningful visualizations that communicate customer-related information clearly and provide useful business insights.
 
+## Tool Used
 
-\## Conclusion
+- Microsoft Power BI
 
+## Dashboard
 
+A Power BI dashboard was created using the cleaned dataset from Task 1.
 
-The customer dataset was successfully cleaned and preprocessed. The final dataset is ready for further analysis and visualization.
+The dashboard contains the following visualizations:
 
+### 1. Total Customers
+A KPI card displaying the total number of customers.
+
+### 2. Average Customer Acquisition Cost
+A KPI card showing the average cost of acquiring a customer.
+
+### 3. Customer Distribution by Gender
+A donut chart showing the distribution of customers by gender.
+
+### 4. Customer Distribution by Segment
+A bar/column chart comparing the number of customers across different customer segments.
+
+### 5. Customer Age Distribution
+A column chart showing the distribution of customers across different age groups.
+
+### 6. Customers by Region
+A bar chart showing customer distribution across regions.
+
+### 7. Customers by Country
+A bar chart showing customer distribution across countries.
+
+### 8. Average Acquisition Cost by Customer Segment
+A column chart comparing the average acquisition cost across customer segments.
+
+## Dashboard Design Principles
+
+The dashboard was designed with the following principles:
+
+- Use the appropriate chart for each type of data.
+- Avoid unnecessary visual clutter.
+- Maintain a consistent visual design.
+- Use clear and descriptive chart titles.
+- Display important KPIs prominently.
+- Focus on business insights rather than only displaying charts.
+- Present the information in a simple and understandable format.
+
+## Task 2 Files
+
+| File | Description |
+|---|---|
+| `Task_2_Data_Visualization_and_Storytelling.pdf` | Exported visual report |
+| `Dashboard_Screenshot.png` | Power BI dashboard screenshot |
+| `Customer_Data_Visualization.pbix` | Power BI project file |
+
+---
+
+# Project Workflow
+
+The overall workflow followed in these tasks was:
+
+```text
+Raw Customer Dataset
+        ↓
+Data Inspection
+        ↓
+Data Cleaning
+        ↓
+Data Preprocessing
+        ↓
+Data Validation
+        ↓
+Cleaned Dataset
+        ↓
+Power BI Visualization
+        ↓
+Dashboard
+        ↓
+Data Storytelling & Business Insights
